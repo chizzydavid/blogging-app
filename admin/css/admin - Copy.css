@@ -1,0 +1,369 @@
+th, td {
+	padding: 10px;
+	border: solid #333 1px;
+	border-collapse: collapse;
+	margin: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+}
+#image-preview {
+  width: 100px;
+  height: 100px;
+}
+body {
+  obackground:#2E3740;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+header {
+  border: solid black 2px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+h1 {
+  font-size: 4em;
+  font-family: cursive;
+}
+#post {
+  display: none;
+}
+
+.btn-holder {
+  iborder: solid green 6px;
+  padding-top: 50px;
+  width: 25%;
+  display: inline-block;
+}
+
+header img {
+  width: 70%;
+  max-height: 350px;
+}
+h2 {
+  color: #6D7781;
+  font-family: "Sofia", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 2.0em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #435160;
+  text-decoration: none;
+}
+
+.login-page {
+  width: 900px;
+  dborder: solid green 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"]{
+  width: 350px;
+  height: 40px;
+  padding: 10px 0px;
+  background: transparent;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: #6D7781;
+  font-size: 16px;
+}
+textarea {
+  width:100%;
+}
+#message {
+  width: 100%
+  padding: 10px;
+  border: 1px solid #435160;
+  background: transparent;
+  font-family: sans-serif;
+  outline: none;
+  color: #6D7781;
+  font-size: 16px;
+}
+input[type=checkbox] {
+  display: none;
+}
+.navigation ul {
+  list-style: none;
+  margin: 20px 0px;
+}
+.navigation ul li {
+  display: inline-block;
+  border: solid #435160 2px;
+  border-radius: 2px;
+  padding: 7px 12px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.navigation ul li:hover, a:hover {
+  background-color: #435160;
+  color: #6D7781;;
+}
+
+.post-nav ul {
+
+  list-style: none;
+  margin: 20px 0px;
+  margin-left: 20px;
+  dwidth: 170px;
+  text-align: left;
+  gborder: green solid 2px;
+}
+.post-nav ul li {
+  display: inline-block;
+  border: solid #435160 2px;
+  height: 40px;
+  padding: 0px;
+  iborder: solid white 2px;
+  margin-bottom: 10px;
+
+}
+.post-nav ul li a {
+  padding: 10px 20px;
+  width: 100%;
+  line-height: 40px;
+  cursor: pointer;
+}
+.post-nav a:hover {
+  background-color: #435160;
+  color: #6D7781;
+}
+
+.new-el {
+  border: white solid 3px;
+}
+.post-nav {
+  float: left;
+}
+.form-space {
+  dborder: solid #6D7781 1px;
+  width: 30%;
+  float: left;
+  margin: 20px;
+  margin-top: 0px;
+  clear:both;
+  text-align: left;
+}
+.form-space h2 {
+  dborder: solid white 2px;
+  text-align: left;
+  padding:0;
+}
+.form-hidden {
+  display: none;
+  border: solid red 3px;
+}
+
+#post-field {
+  width:97%;
+  border: 1px solid #435160;
+  font-size: 16px;
+  padding:5px ;
+  kjheight: 100px;
+}
+.blog-post {
+  dborder: solid green 2px;
+  min-width: 800px;
+  min-height: 500px;
+  float: left;
+  padding: 10px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+
+iframe {
+  min-width: 800px;
+  min-height: 500px;
+  float: left;
+  margin: 0 auto 0 auto;
+}
+
+
+.submit-section {
+  margin-top: 0px;
+  float: left;
+  width: 100%;
+  dborder: solid red 2px;
+  text-align: right;
+}
+
+
+button.user-btn {
+  background-color:#2E3740;
+  color: #435160;
+  height: 40px;
+  width: 100px;
+  border: solid #435160 2px;
+  border-radius: 2px;
+}
+
+button:hover, .user-link:hover {
+  cursor: pointer;
+  background-color: #435160;
+  color: #2E3740;
+}
+
+
+.portrait-img {
+  float: left;
+  width: 170px;
+  height: 170px;
+  margin:20px 20px 20px 0px ;
+}
+.description {
+  float: left;
+  width: 100%;
+}
+
+#agree:checked ~ label[for=agree] {
+  background: #435160;
+}
+
+input[type="submit"] {
+  background: #1FCE6D;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit {
+  background: #1FCE6D;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  float: left;
+  padding-top: 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 50px;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#done, #cancel {
+  height: 35px;
+  width: 80px;
+  margin: 20px 10px;
+}
+input[type="file"] {
+  margin-top: 30px;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+}
+.error {
+  color:red;
+  font-size: 33px;
+}
+
+
+::-webkit-input-placeholder {
+  color: #435160;
+  font-size: 16px;
+}
+
+.animated {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main-container {
+  iborder: solid red 2px;
+  margin-top: 50px;
+  min-width: 992px;
+}
+#main-container h1 {
+  gfont-family: serif;
+}
+.navbar {
+  margin-bottom: 0px;
+  border:none;
+  height: 70px;
+  background:white;/*transparent;*/
+  z-index: 2;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+.navbar-nav {
+  background: white;
+}
+
+@media (max-width: 1000px) {
+  .navbar-nav {
+      background: white;
+      margin-top: 270px;
+    border: solid green 3px;
+  }
+  .navbar-nav li {
+    padding-left: 20px !important;    
+  }
+}
+#posts-nav {
+  margin: 15px 0 30px 0;
+}
+#posts-nav li {
+  height: 40px;
+  background: #007bff;
+  margin-right: 2px;
+  border-radius: 3px;
+}
+#posts-nav li a {
+  color: white;
+  padding: 0px 10px;
+  text-decoration: none;
+  line-height: 40px;
+}

@@ -1,0 +1,162 @@
+.navbar {
+  margin-bottom: 0px;
+  border:none;
+  height: 70px;
+  background:white;/*transparent;*/
+  z-index: 2;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+.nav-link.active {
+  color: black !important;
+  font-weight: bold !important;
+}
+body {
+    background: #f1f1f1;
+}
+@media (max-width: 1000px) {
+  .navbar {
+    height: auto;
+  }
+  .navbar-nav {
+  }
+  .navbar-nav li {
+    height: 50px;  
+  }
+}
+#main-container {
+  iborder: solid red 2px;
+  margin-top: 110px;
+  min-width: 992px;
+}
+#post-nav {
+  margin: 15px 0 30px 0;
+}
+#post-nav li {
+  height: 40px;
+  background: #007bff;
+  margin-right: 2px;
+  border-radius: 3px;
+}
+#post-nav li a {
+  color: white;
+  padding: 0px 10px;
+  text-decoration: none;
+  line-height: 40px;
+  cursor: pointer;
+}
+#image-preview {
+  width: 100px;
+  height: 100px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"]{
+  width: 350px;
+  height: 40px;
+  padding: 10px 0px;
+  background: transparent;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: #6D7781;
+  font-size: 16px;
+}
+textarea {
+  width:100%;
+  border: none;
+}
+
+.form-space {
+  dborder: solid #6D7781 1px;
+  width: 30%;
+  float: left;
+  margin: 20px;
+  margin-top: 0px;
+  clear:both;
+  text-align: left;
+}
+.form-space h2 {
+  dborder: solid white 2px;
+  text-align: left;
+  padding:0;
+}
+.form-hidden {
+  display: none;
+}
+
+.blog-post {
+  dborder: solid green 2px;
+  min-width: 700px;
+  min-height: 500px;
+  float: left;
+  padding: 10px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+
+iframe {
+  min-width: 700px;
+  min-height: 500px;
+  border: none;
+  float: left;
+  margin: 0 auto 0 auto;
+}
+
+
+.submit-section {
+  margin-top: 0px;
+  float: left;
+  width: 100%;
+  dborder: solid red 2px;
+  text-align: right;
+}
+
+
+input[type="submit"] {
+  background: #1FCE6D;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.submit {
+  background: #1FCE6D;
+  border: 0;
+  width: 150px;
+  height: 40px;
+  float: left;
+  padding-top: 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 50px;
+  margin-top: 7px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#done, #cancel {
+  height: 35px;
+  width: 80px;
+  margin: 20px 10px;
+}
+input[type="file"] {
+  margin-top: 30px;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+}
+.error {
+  color:red;
+  font-size: 33px;
+}

@@ -1,0 +1,47 @@
+INDEX.PHP
+  Homepage of the blog, shows recent blog posts in ascending order of time
+
+VIEW-POST.PHP
+  Displays the individual blog posts by page id.
+
+INCLUDES/....PHP
+  Has all the template files used in building the Homepage and the view post page.
+
+JS/....js
+  Holds all javascript files
+
+CLASSES/DB.PHP
+  Holds all the database classes used for both: Admin-Class and Blog-Class
+
+CLASSES/BLOG-CLASS.PHP
+  Holds the classes powering the blog(the homepage and the view post page)
+
+CLASSES/ADMIN-CLASS.PHP
+  Holds the classes powering the admin section of the blog
+
+ADMIN/ADD-POST.PHP
+  This page lets the admin add posts to the blog
+
+ADMIN/ADD-USER.PHP
+  This page lets the admin add other admins to the blog, inputing their full information
+
+ADMIN/EDIT-USER.PHP
+  This page lets the admin edit admin information
+
+ADMIN/INDEX.PHP
+  This page lets the admin view all posts and decides which would be approved(Published) or not
+
+ADMIN/LOGIN.PHP
+  This page lets the admin login to his dashboard
+
+ADMIN/LOGOUT.PHP
+  This page lets the admin logout of his dashboard
+
+ADMIN/LOGIN.PHP
+  This page lets the admin login to his dashboard
+
+ADMIN/HEADER & FOOTER.PHP
+  Template files for the admin section
+
+
+
